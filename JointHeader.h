@@ -6,6 +6,6 @@
 
 using namespace std;
 
-#include "TriangleDistance.h"
 #include "VectorUtilities.h"
+#include "TriangleDistance.h"
 #include "Extern.h"

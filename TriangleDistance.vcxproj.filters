@@ -26,12 +26,12 @@
     <ClCompile Include="Extern.cpp">
       <Filter>Source Files\MAIN</Filter>
     </ClCompile>
+    <ClCompile Include="TriangleDistance.cpp">
+      <Filter>Source Files\CORE</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="VectorUtilities.h">
-      <Filter>Source Files\CORE</Filter>
-    </ClInclude>
-    <ClInclude Include="TriangleDistance.h">
       <Filter>Source Files\CORE</Filter>
     </ClInclude>
     <ClInclude Include="JointHeader.h">
@@ -39,6 +39,9 @@
     </ClInclude>
     <ClInclude Include="Extern.h">
       <Filter>Source Files\MAIN</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangleDistance.h">
+      <Filter>Source Files\CORE</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

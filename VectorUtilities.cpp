@@ -7,7 +7,7 @@ using namespace std;
 
 
 //[Member functions for Triangle3D]
-Vector3D Triangle3D::normal()
+Vector3D Triangle3D::computeNormal()
 {
 	return vector3DUtils.cross(Edge1.vector(), Edge2.vector());
 }
